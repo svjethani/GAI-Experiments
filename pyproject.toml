@@ -1,0 +1,20 @@
+[project]
+name = "podcast-digest"
+version = "0.1.0"
+description = "Daily Spotify podcast digest with transcript-aware summaries"
+requires-python = ">=3.11"
+authors = [{name = "Automation"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0"
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

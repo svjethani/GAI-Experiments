@@ -1,0 +1,16 @@
+{
+  "shows": [
+    {
+      "id": "",
+      "url": "https://open.spotify.com/show/0000000000000000000000",
+      "name": "Sample Podcast",
+      "last_processed": null
+    }
+  ],
+  "output": {
+    "output_dir": "output"
+  },
+  "state_file": "data/state.json",
+  "transcript_cache": "data/transcripts",
+  "timezone": "UTC"
+}
